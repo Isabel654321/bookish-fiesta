@@ -1,1 +1,8 @@
-
+.menu-container{ text-align:center; border: 2px; margin:0px; }
+header{BACKGROUND: #fff; padding: 15px 15px 5px 15px; margin: 20px}
+li{ list-style-type:none; display:inline; padding: 5px;}
+.footer-container{text-align:center; border: 5px; margin:0px; padding:20px; background-color: #292727;}
+.footer-container li{color:#fff;}
+.title{border:20px; margin: 70px;}
+h1{ font-family: 'Euclid Square', sans-serif; font-size: 70px; font-weight: 400;
+}
