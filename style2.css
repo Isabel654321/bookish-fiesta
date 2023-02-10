@@ -1,10 +1,10 @@
 .menu-container{ text-align:center; border: 2px; margin:0px; }
 header{BACKGROUND: #fff; padding: 15px 15px 5px 15px; margin: 20px}
 li{ list-style-type:none; display:inline; padding: 5px;}
-body{font-family: 'Euclid Square', sans-serif;}
-h1{ font-size: 100px; font-weight: 400; border: 70px; padding: 70px; color: rgb(0, 0, 0)}
+body{font-family: 'Euclid Square', sans-serif; margin:0px;}
+h1{ font-weight: 50px; font-size: 50px;border: 0px; padding: 0px; color: rgb(255, 255, 255);text-align: center;}
 img{  width: 100%; height: auto;margin:0px; padding: 0px; margin:0px;}
-.footer-container{text-align:center; border: 5px; margin:0px; padding:20px; background-color: #292727;}
-.footer-container li{color:#fff;}
-.title{border: 0px; position:relative;}
-.cover{position: absolute; bottom: 200px; left:0px; width: 100%;}
+.footer-container{text-align:center; border: 5px; margin:0px; padding:20px;background-color: black;}
+.footer-container li{color:#ffffff;}
+.title{border: 0px; position:relative;background-color: #00000028;}
+.cover{position: absolute; bottom: 25%; left:0px; width: 100%; }
