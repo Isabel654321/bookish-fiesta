@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+
+
+</head>
+<body>
+<header class="header clearfix">
+    <a href="" class="header_icon_bar">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+    <menu class="menu-container">
+        <ul>
+            <li class="header_menu_item"> <a href="">Horror</a></li>
+            <li class="header_menu_item"><a href="">Comici</a></li>
+            <li class="header_menu_item"><a href="">Romantici</a></li>
+            <li class="header_menu_item"><a href="">Drammatici</a></li>
+            <li class="header_menu_item"><a href="">Storici</a></li>
+            <li class="header_menu_item"><a href="">Per tutti</a></li>
+        </ul>
+    </menu>
+</header>
+
+    <div class="title">
+        <h1 class="cover">Film roulette</h1>
+         <img src="fotoooo.jpg" alt="">
+    </div>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           
+            $(".header_icon_bar").click(function(e){
+               
+                $(".menu-container").toggleClass('is-open');
+                e.preventDefault();
+            });
+        });
+    </script>
+</body>
+    <footer class="footer-container">
+        <ul>
+            <li>Copyright © 1997 - 2023 </li>
+            <li>P.Iva 00000000005</li>
+            <li> Termini e condizioni</li>
+            <li> Cookie</li>
+            <li>Contattaci: +33966677788</li>
+        </ul>
+    </footer>
+</html>
